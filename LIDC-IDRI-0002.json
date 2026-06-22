@@ -1,0 +1,37 @@
+{
+  "studies": [
+    {
+      "StudyInstanceUID": "1.3.6.1.4.1.14519.5.2.1.6279.6001.298806137288633453246975630179",
+      "StudyDate": "20000101",
+      "StudyTime": "",
+      "PatientName": "Doe^Anonymized",
+      "PatientID": "LIDC-IDRI-0001",
+      "AccessionNumber": "",
+      "PatientAge": "",
+      "PatientSex": "",
+      "series": [
+        {
+          "SeriesInstanceUID": "1.3.6.1.4.1.14519.5.2.1.6279.6001.179049373636438705059720603193",
+          "SeriesNumber": 1,
+          "Modality": "SR",
+          "instances": [
+            {
+              "metadata": {
+                "InstanceNumber": 1,
+                "SOPClassUID": "1.2.840.10008.5.1.4.1.1.88.11",
+                "Modality": "SR",
+                "SOPInstanceUID": "1.3.6.1.4.1.14519.5.2.1.6279.6001.262721256650280657946440242654",
+                "SeriesInstanceUID": "1.3.6.1.4.1.14519.5.2.1.6279.6001.179049373636438705059720603192",
+                "StudyInstanceUID": "1.3.6.1.4.1.14519.5.2.1.6279.6001.298806137288633453246975630178",
+                "SeriesDate": "20000101"
+              },
+              "url": "dicomweb:https://raw.githubusercontent.com/andre23arruda/tmp-drive/refs/heads/main/SR.dcm"
+            }
+          ]
+        }
+      ],
+      "NumInstances": 1,
+      "Modalities": "SR"
+    }
+  ]
+}
