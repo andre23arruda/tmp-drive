@@ -21,15 +21,11 @@
                 "SeriesInstanceUID": "1.3.6.1.4.1.14519.5.2.1.6279.6001.179049373636438705059720603192",
                 "StudyInstanceUID": "1.3.6.1.4.1.14519.5.2.1.6279.6001.298806137288633453246975630178",
                 "SeriesDate": "20000101",
-                
-                // Título principal do Relatório (Ex: Laudo Radiológico)
                 "ConceptNameCodeSequence": {
                   "CodeValue": "11528-7",
                   "CodingSchemeDesignator": "LN",
                   "CodeMeaning": "Laudo Radiologico"
-                },
-                
-                // Estrutura do documento de texto
+                },                
                 "ContentSequence": [
                   {
                     "RelationshipType": "CONTAINS",
@@ -49,7 +45,6 @@
                       "CodingSchemeDesignator": "DCM",
                       "CodeMeaning": "Achados"
                     },
-                    // Subseção estruturada (Seção de Achados)
                     "ContentSequence": [
                       {
                         "RelationshipType": "CONTAINS",
