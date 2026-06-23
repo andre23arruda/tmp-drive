@@ -1,0 +1,107 @@
+{
+  "studies": [
+    {
+      "StudyInstanceUID": "1.2.99.99.99.99.192.168.0.1.892003555597250794776299714329902838",
+      "StudyDate": "20260615",
+      "StudyTime": "113151.292000",
+      "PatientName": "ANONYMOUS",
+      "PatientID": "139171",
+      "AccessionNumber": "110428",
+      "PatientAge": "077Y",
+      "PatientSex": "M",
+      "series": [
+        {
+          "SeriesInstanceUID": "1.2.826.0.1.3680043.8.498.15103684032545577779618794347086454142",
+          "SeriesNumber": 1,
+          "Modality": "SR",
+          "SeriesDescription": "xAID_CT-CHEST",
+          "instances": [
+            {
+              "metadata": {
+                "SpecificCharacterSet": "ISO_IR 192",
+                "SOPClassUID": "1.2.840.10008.5.1.4.1.1.88.33",
+                "SOPInstanceUID": "1.2.826.0.1.3680043.8.498.56337192494261499536364453662939131575",
+                "StudyInstanceUID": "1.2.99.99.99.99.192.168.0.1.892003555597250794776299714329902838",
+                "SeriesInstanceUID": "1.2.826.0.1.3680043.8.498.15103684032545577779618794347086454142",
+                "InstanceNumber": 1,
+                "SeriesDate": "20260615",
+                "SeriesTime": "113325",                
+                "ConceptNameCodeSequence": {
+                  "CodeValue": "DT.06",
+                  "CodingSchemeDesignator": "99_OFFIS_DCMTK",
+                  "CodeMeaning": "TOMOGRAFIA COMPUTADORIZADA DO TÓRAX"
+                },
+                "ContinuityOfContent": "SEPARATE",                
+                "ContentSequence": [
+                  {
+                    "RelationshipType": "CONTAINS",
+                    "ValueType": "TEXT",
+                    "ConceptNameCodeSequence": {
+                      "CodeValue": "209001",
+                      "CodingSchemeDesignator": "99PMP",
+                      "CodeMeaning": "Aviso"
+                    },
+                    "TextValue": "[Texto do Aviso com 90 caracteres aqui...]"
+                  },
+                  {
+                    "RelationshipType": "CONTAINS",
+                    "ValueType": "TEXT",
+                    "ConceptNameCodeSequence": {
+                      "CodeValue": "209001",
+                      "CodingSchemeDesignator": "99PMP",
+                      "CodeMeaning": ""
+                    },
+                    "TextValue": "[Texto descritivo adicional com 129 caracteres aqui...]"
+                  },
+                  {
+                    "RelationshipType": "CONTAINS",
+                    "ValueType": "TEXT",
+                    "ConceptNameCodeSequence": {
+                      "CodeValue": "209001",
+                      "CodingSchemeDesignator": "99PMP",
+                      "CodeMeaning": "Técnica"
+                    },
+                    "TextValue": "[Texto detalhando a técnica com 45 caracteres aqui...]"
+                  },
+                  {
+                    "RelationshipType": "CONTAINS",
+                    "ValueType": "TEXT",
+                    "ConceptNameCodeSequence": {
+                      "CodeValue": "209001",
+                      "CodingSchemeDesignator": "99PMP",
+                      "CodeMeaning": "Análise"
+                    },
+                    "TextValue": "[Análise diagnóstica com 1411 caracteres aqui...]"
+                  },
+                  {
+                    "RelationshipType": "CONTAINS",
+                    "ValueType": "TEXT",
+                    "ConceptNameCodeSequence": {
+                      "CodeValue": "209001",
+                      "CodingSchemeDesignator": "99PMP",
+                      "CodeMeaning": "Conclusão"
+                    },
+                    "TextValue": "[Texto da Conclusão com 205 caracteres aqui...]"
+                  },
+                  {
+                    "RelationshipType": "CONTAINS",
+                    "ValueType": "TEXT",
+                    "ConceptNameCodeSequence": {
+                      "CodeValue": "209001",
+                      "CodingSchemeDesignator": "99PMP",
+                      "CodeMeaning": "Dados Técnicos"
+                    },
+                    "TextValue": "[Dados técnicos adicionais com 46 caracteres aqui...]"
+                  }
+                ]
+              },
+              "url": "dicomweb:https://raw.githubusercontent.com/andre23arruda/tmp-drive/refs/heads/main/SR.dcm"
+            }
+          ]
+        }
+      ],
+      "NumInstances": 1,
+      "Modalities": "SR"
+    }
+  ]
+}
