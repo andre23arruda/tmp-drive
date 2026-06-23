@@ -1,0 +1,107 @@
+{
+  "studies": [
+    {
+      "StudyInstanceUID": "1.2.99.99.99.99.192.168.0.1.892003555597250794776299714329902838",
+      "StudyDate": "20260615",
+      "StudyTime": "113151.292000",
+      "PatientName": "ANONYMOUS",
+      "PatientID": "139171",
+      "AccessionNumber": "110428",
+      "PatientAge": "077Y",
+      "PatientSex": "M",
+      "series": [
+        {
+          "SeriesInstanceUID": "1.2.826.0.1.3680043.8.498.15103684032545577779618794347086454142",
+          "SeriesNumber": 1,
+          "Modality": "SR",
+          "SeriesDescription": "xAID_CT-CHEST",
+          "instances": [
+            {
+              "metadata": {
+                "SpecificCharacterSet": "ISO_IR 192",
+                "SOPClassUID": "1.2.840.10008.5.1.4.1.1.88.33",
+                "SOPInstanceUID": "1.2.826.0.1.3680043.8.498.56337192494261499536364453662939131575",
+                "StudyInstanceUID": "1.2.99.99.99.99.192.168.0.1.892003555597250794776299714329902838",
+                "SeriesInstanceUID": "1.2.826.0.1.3680043.8.498.15103684032545577779618794347086454142",
+                "InstanceNumber": 1,
+                "SeriesDate": "20260615",
+                "SeriesTime": "113325",
+                "ConceptNameCodeSequence": {
+                  "CodeValue": "DT.06",
+                  "CodingSchemeDesignator": "99_OFFIS_DCMTK",
+                  "CodeMeaning": "TOMOGRAFIA COMPUTADORIZADA DO TÓRAX"
+                },
+                "ContinuityOfContent": "SEPARATE",
+                "ContentSequence": [
+                  {
+                    "RelationshipType": "CONTAINS",
+                    "ValueType": "TEXT",
+                    "ConceptNameCodeSequence": {
+                      "CodeValue": "209001",
+                      "CodingSchemeDesignator": "99PMP",
+                      "CodeMeaning": "Aviso"
+                    },
+                    "TextValue": "Laudo realizado com auxílio de inteligência artificial e validado por médico radiologista."
+                  },
+                  {
+                    "RelationshipType": "CONTAINS",
+                    "ValueType": "TEXT",
+                    "ConceptNameCodeSequence": {
+                      "CodeValue": "209001",
+                      "CodingSchemeDesignator": "99PMP",
+                      "CodeMeaning": ""
+                    },
+                    "TextValue": "ID do estudo: 1.2.99.99.99.99.192.168.0.1.892003555597250794776299714329902838 - Data e hora do relatório de IA: 15.06.2026 12:10"
+                  },
+                  {
+                    "RelationshipType": "CONTAINS",
+                    "ValueType": "TEXT",
+                    "ConceptNameCodeSequence": {
+                      "CodeValue": "209001",
+                      "CodingSchemeDesignator": "99PMP",
+                      "CodeMeaning": "Técnica"
+                    },
+                    "TextValue": "Aquisição multislice, sem meio de contraste\n\n"
+                  },
+                  {
+                    "RelationshipType": "CONTAINS",
+                    "ValueType": "TEXT",
+                    "ConceptNameCodeSequence": {
+                      "CodeValue": "209001",
+                      "CodingSchemeDesignator": "99PMP",
+                      "CodeMeaning": "Análise"
+                    },
+                    "TextValue": "\nPulmões:\n            Nenhum nódulo pulmonar detectado.\n        Áreas com padrão de alta atenuação detectadas, com área total afetada de até 1%.    \n\n    Espaços pleurais:\n                Sem derrame ou gás detectado nos espaços pleurais.\n    \n    Sistema cardiovascular:\n                                                Dilatação da aorta ascendente detectada - 40 mm,                    Aorta descendente não dilatada - 28 mm.\n                                                    Nenhuma dilatação do tronco pulmonar detectada.\n                Calcificações das artérias coronárias detectadas: escore de Agatston - 201, CAC-DRS - A2.\n                                    Volume de gordura pericárdica dentro da faixa normal.\n                                            Volume de líquido no espaço pericárdico dentro dos limites normais.\n                        \n    \n    Achados incidentais:\n            Nenhuma lesão adrenal detectada.\n    \n    Estruturas ósseas:\n            Ausência de fraturas costais.\n                            Alturas dos corpos vertebrais preservadas.\n                                                                                                                                                                                                                                    Redução na densidade do corpo vertebral detectada: T11 - 131 UH, T12 - 109 UH, L1 - 104 UH, L2 - 104 UH.\n\n"
+                  },
+                  {
+                    "RelationshipType": "CONTAINS",
+                    "ValueType": "TEXT",
+                    "ConceptNameCodeSequence": {
+                      "CodeValue": "209001",
+                      "CodingSchemeDesignator": "99PMP",
+                      "CodeMeaning": "Conclusão"
+                    },
+                    "TextValue": "Áreas com padrão de alta atenuação pulmonar detectadas. Aorta torácica ascendente dilatação detectada. Calcificações das artérias coronárias detectadas. Redução na densidade do corpo vertebral detectada.\n\n"
+                  },
+                  {
+                    "RelationshipType": "CONTAINS",
+                    "ValueType": "TEXT",
+                    "ConceptNameCodeSequence": {
+                      "CodeValue": "209001",
+                      "CodingSchemeDesignator": "99PMP",
+                      "CodeMeaning": "Dados Técnicos"
+                    },
+                    "TextValue": "Espessura de corte: 2.0; Número de cortes: 712"
+                  }
+                ]
+              },
+              "url": "dicomweb:https://raw.githubusercontent.com/andre23arruda/tmp-drive/refs/heads/main/SR.dcm"
+            }
+          ]
+        }
+      ],
+      "NumInstances": 1,
+      "Modalities": "SR"
+    }
+  ]
+}
