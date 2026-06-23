@@ -6,9 +6,6 @@
       "StudyTime": "",
       "PatientName": "Doe^Anonymized",
       "PatientID": "LIDC-IDRI-0001",
-      "AccessionNumber": "",
-      "PatientAge": "",
-      "PatientSex": "",
       "series": [
         {
           "SeriesInstanceUID": "1.3.6.1.4.1.14519.5.2.1.6279.6001.179049373636438705059720603192",
@@ -25,113 +22,66 @@
                 "StudyInstanceUID": "1.3.6.1.4.1.14519.5.2.1.6279.6001.298806137288633453246975630178",
                 "SeriesDate": "20000101",
                 
+                // Título principal do Relatório (Ex: Laudo Radiológico)
                 "ConceptNameCodeSequence": {
-                  "CodeValue": "126000",
-                  "CodingSchemeDesignator": "DCM",
-                  "CodeMeaning": "Imaging Measurement Report"
+                  "CodeValue": "11528-7",
+                  "CodingSchemeDesignator": "LN",
+                  "CodeMeaning": "Laudo Radiologico"
                 },
                 
+                // Estrutura do documento de texto
                 "ContentSequence": [
                   {
                     "RelationshipType": "CONTAINS",
-                    "ValueType": "CONTAINER",
+                    "ValueType": "TEXT",
                     "ConceptNameCodeSequence": {
-                      "CodeValue": "111028",
+                      "CodeValue": "121060",
                       "CodingSchemeDesignator": "DCM",
-                      "CodeMeaning": "Image Library"
+                      "CodeMeaning": "Historico do Paciente"
                     },
-                    "ContentSequence": [
-                      {
-                        "RelationshipType": "CONTAINS",
-                        "ValueType": "CONTAINER",
-                        "ConceptNameCodeSequence": {
-                          "CodeValue": "126200",
-                          "CodingSchemeDesignator": "DCM",
-                          "CodeMeaning": "Image Library Group"
-                        },
-                        "ContentSequence": [
-                          {
-                            "RelationshipType": "CONTAINS",
-                            "ValueType": "IMAGE",
-                            "ReferencedSOPSequence": {
-                              "ReferencedSOPClassUID": "1.2.840.10008.5.1.4.1.1.2",
-                              "ReferencedSOPInstanceUID": "1.3.6.1.4.1.14519.5.2.1.6279.6001.262721256650280657946440242654"
-                            }
-                          }
-                        ]
-                      }
-                    ]
+                    "TextValue": "Paciente masculino, 45 anos, com histórico de tosse persistente."
                   },
                   {
                     "RelationshipType": "CONTAINS",
                     "ValueType": "CONTAINER",
                     "ConceptNameCodeSequence": {
-                      "CodeValue": "126010",
+                      "CodeValue": "121070",
                       "CodingSchemeDesignator": "DCM",
-                      "CodeMeaning": "Imaging Measurements"
+                      "CodeMeaning": "Achados"
                     },
+                    // Subseção estruturada (Seção de Achados)
                     "ContentSequence": [
                       {
                         "RelationshipType": "CONTAINS",
-                        "ValueType": "CONTAINER",
+                        "ValueType": "TEXT",
                         "ConceptNameCodeSequence": {
-                          "CodeValue": "125007",
+                          "CodeValue": "121071",
                           "CodingSchemeDesignator": "DCM",
-                          "CodeMeaning": "Measurement Group"
+                          "CodeMeaning": "Pulmao Direito"
                         },
-                        "ContentSequence": [
-                          {
-                            "RelationshipType": "HAS OBS CONTEXT",
-                            "ValueType": "TEXT",
-                            "ConceptNameCodeSequence": {
-                              "CodeValue": "112039",
-                              "CodingSchemeDesignator": "DCM",
-                              "CodeMeaning": "Tracking Identifier"
-                            },
-                            "TextValue": "Medicao 1"
-                          },
-                          {
-                            "RelationshipType": "HAS OBS CONTEXT",
-                            "ValueType": "UIDREF",
-                            "ConceptNameCodeSequence": {
-                              "CodeValue": "112040",
-                              "CodingSchemeDesignator": "DCM",
-                              "CodeMeaning": "Tracking Unique Identifier"
-                            },
-                            "UID": "2.25.123456789012345678901234567890"
-                          },
-                          {
-                            "RelationshipType": "CONTAINS",
-                            "ValueType": "NUM",
-                            "ConceptNameCodeSequence": {
-                              "CodeValue": "G-A166",
-                              "CodingSchemeDesignator": "SRT",
-                              "CodeMeaning": "Area"
-                            },
-                            "MeasuredValueSequence": {
-                              "NumericValue": "150.5",
-                              "MeasurementUnitsCodeSequence": {
-                                "CodeValue": "mm2",
-                                "CodingSchemeDesignator": "UCUM",
-                                "CodeMeaning": "square millimeter"
-                              }
-                            },
-                            "ContentSequence": {
-                              "RelationshipType": "INFERRED FROM",
-                              "ValueType": "SCOORD",
-                              "GraphicType": "POLYLINE",
-                              "GraphicData": [10.5, 20.1, 30.2, 40.5, 50.1, 60.3],
-                              "ContentSequence": {
-                                "ReferencedSOPSequence": {
-                                  "ReferencedSOPClassUID": "1.2.840.10008.5.1.4.1.1.2",
-                                  "ReferencedSOPInstanceUID": "1.3.6.1.4.1.14519.5.2.1.6279.6001.262721256650280657946440242654"
-                                }
-                              }
-                            }
-                          }
-                        ]
+                        "TextValue": "Presença de nódulo pulmonar solitário no lobo superior direito."
+                      },
+                      {
+                        "RelationshipType": "CONTAINS",
+                        "ValueType": "TEXT",
+                        "ConceptNameCodeSequence": {
+                          "CodeValue": "121071",
+                          "CodingSchemeDesignator": "DCM",
+                          "CodeMeaning": "Pulmao Esquerdo"
+                        },
+                        "TextValue": "Sem alterações significativas detectadas."
                       }
                     ]
+                  },
+                  {
+                    "RelationshipType": "CONTAINS",
+                    "ValueType": "TEXT",
+                    "ConceptNameCodeSequence": {
+                      "CodeValue": "121075",
+                      "CodingSchemeDesignator": "DCM",
+                      "CodeMeaning": "Conclusao"
+                    },
+                    "TextValue": "Nódulo de características indeterminadas. Recomenda-se acompanhamento por imagem."
                   }
                 ]
               },
