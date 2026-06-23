@@ -1,0 +1,91 @@
+{
+  "studies": [
+    {
+      "StudyInstanceUID": "1.3.6.1.4.1.14519.5.2.1.6279.6001.298806137288633453246975630178",
+      "StudyDate": "20000101",
+      "StudyTime": "",
+      "PatientName": "Doe^Anonymized",
+      "PatientID": "LIDC-IDRI-0001",
+      "series": [
+        {
+          "SeriesInstanceUID": "1.3.6.1.4.1.14519.5.2.1.6279.6001.179049373636438705059720603192",
+          "SeriesNumber": 1,
+          "Modality": "SR",
+          "instances": [
+            {
+              "metadata": {
+                "InstanceNumber": 1,
+                "SOPClassUID": "1.2.840.10008.5.1.4.1.1.88.11",
+                "Modality": "SR",
+                "SOPInstanceUID": "1.3.6.1.4.1.14519.5.2.1.6279.6001.262721256650280657946440242654",
+                "SeriesInstanceUID": "1.3.6.1.4.1.14519.5.2.1.6279.6001.179049373636438705059720603192",
+                "StudyInstanceUID": "1.3.6.1.4.1.14519.5.2.1.6279.6001.298806137288633453246975630178",
+                "SeriesDate": "20000101",                
+                "ConceptNameCodeSequence": {
+                  "CodeValue": "11528-7",
+                  "CodingSchemeDesignator": "LN",
+                  "CodeMeaning": "Laudo Radiologico"
+                },                
+                "ContentSequence": [
+                  {
+                    "RelationshipType": "CONTAINS",
+                    "ValueType": "TEXT",
+                    "ConceptNameCodeSequence": {
+                      "CodeValue": "121060",
+                      "CodingSchemeDesignator": "DCM",
+                      "CodeMeaning": "Historico do Paciente"
+                    },
+                    "TextValue": "Paciente masculino, 45 anos, com histórico de tosse persistente."
+                  },
+                  {
+                    "RelationshipType": "CONTAINS",
+                    "ValueType": "CONTAINER",
+                    "ConceptNameCodeSequence": {
+                      "CodeValue": "121070",
+                      "CodingSchemeDesignator": "DCM",
+                      "CodeMeaning": "Achados"
+                    },
+                    "ContentSequence": [
+                      {
+                        "RelationshipType": "CONTAINS",
+                        "ValueType": "TEXT",
+                        "ConceptNameCodeSequence": {
+                          "CodeValue": "121071",
+                          "CodingSchemeDesignator": "DCM",
+                          "CodeMeaning": "Pulmao Direito"
+                        },
+                        "TextValue": "Presença de nódulo pulmonar solitário no lobo superior direito."
+                      },
+                      {
+                        "RelationshipType": "CONTAINS",
+                        "ValueType": "TEXT",
+                        "ConceptNameCodeSequence": {
+                          "CodeValue": "121071",
+                          "CodingSchemeDesignator": "DCM",
+                          "CodeMeaning": "Pulmao Esquerdo"
+                        },
+                        "TextValue": "Sem alterações significativas detectadas."
+                      }
+                    ]
+                  },
+                  {
+                    "RelationshipType": "CONTAINS",
+                    "ValueType": "TEXT",
+                    "ConceptNameCodeSequence": {
+                      "CodeValue": "121075",
+                      "CodingSchemeDesignator": "DCM",
+                      "CodeMeaning": "Conclusao"
+                    },
+                    "TextValue": "Nódulo de características indeterminadas. Recomenda-se acompanhamento por imagem."
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "NumInstances": 1,
+      "Modalities": "SR"
+    }
+  ]
+}
